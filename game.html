@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Femboy Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
+    <audio id="audioPlayer" autoplay loop>
+        <source src="music.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="nya">
+        <source src="nya.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="upgrad12">
+        <source src="upgraded.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="clicker" onclick="clicker()">Play</button>
+</body>
+<h1 id="score">0</h1>
+<h2 id="cps">0 Clicks Per Second</h2>
+ <h1 id="title">Femboy Clicker</h1>
+<img src="click.png" id="asto" onclick="clicked()"></img>
+<img id="arch" src="arch.png"></html></img>
+<div id="upgrade-menu">
+    <h2>Upgrades</h2>
+    <button class="upgrade-btn" onclick="buyUpgrade(1, 10)">Upgrade 1 (+1 per click) - 10 Points</button>
+    <button class="upgrade-btn" onclick="buyUpgrade(2, 50)">Upgrade 2 (+2 per click) - 50 Points</button>
+    <button class="upgrade-btn" onclick="buyUpgrade(4, 400)">Upgrade 3 (+4 per click) - 400 Points</button>
+<button class="upgrade-btn" onclick="buyArchUpgrade()">Arch Upgrade (+1 Clicks per Seconds) - 100 Points</button>
+
+
+</div>
+<div id="arch-container"></div>
+<img src="unmute.png" id="mute" onclick="togglemute()"></img>
+<a href="/nsfwclicker/nsfwver.html"><h1 id="nsfw">NSFW VERSION :3</h1></a>
+</html>
+
